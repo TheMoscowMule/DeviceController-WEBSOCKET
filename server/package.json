@@ -1,0 +1,26 @@
+{
+  "name": "websocket-debugged-version",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "analyze-complexity": "cloc . && complexity-report ./**/*.js"
+  },
+  "keywords": [],
+  "author": "XV",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "localtunnel": "^2.0.2",
+    "mongoose": "^8.2.0",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "cloc": "^2.0.0-cloc",
+    "complexity-report": "^2.0.0-alpha",
+    "eslint": "^8.57.0",
+    "eslint-plugin-complexity": "^1.0.2"
+  }
+}
